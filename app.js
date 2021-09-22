@@ -14,7 +14,7 @@ function getCocktail(){
             displayHeading.innerHTML = data.drinks.map(drink =>
 
                 `
-                <div class="card text-center card-body mt-3 mx-auto" style="width: 22rem;">
+                <div class="card text-center card-body mt-3 mx-auto" style="width:40rem;">
                     <div class="row">
                         <div class="col-md">
                             <h2 class="mt-3">Get inspired by : <stong>${drink.strDrink}<stong> </h2>
